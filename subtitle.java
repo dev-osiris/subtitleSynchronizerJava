@@ -12,8 +12,7 @@ import java.util.regex.Pattern;
 public class subtitle {
     public static void main(String[] args) throws IOException {
         var reader = new Scanner(System.in);
-        final String path = "C:\\Users\\Harish\\IdeaProjects\\basics2\\src\\ineptionTest.srt";
-        final String filename = "C:\\Users\\Harish\\IdeaProjects\\basics2\\src\\ineptionTest.srt";
+        final String filename = "path to .srt file";
         boolean matchFound = false;
 
         System.out.println("enter no of seconds to be changed:\n" +
